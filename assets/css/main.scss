@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+  transition: 200ms;
+}
+
+.container {
+  max-width: 1150px;
+  margin: auto;
+}
+@import "var";
+@import "mixin";
+@import "index";
+@import "troll";

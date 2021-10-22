@@ -1,0 +1,15 @@
+.troll-con {
+  @include flex(center);
+  flex-flow: column;
+  height: 100vh;
+  padding: 5rem;
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  video {
+    width: 30%;
+    margin: auto;
+  }
+}

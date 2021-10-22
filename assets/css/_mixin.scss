@@ -1,0 +1,18 @@
+@mixin flex($j: space-between, $a: center) {
+  display: flex;
+  justify-content: $j;
+  align-items: $a;
+}
+@mixin primaryBtn {
+  margin-top: 2rem;
+  text-decoration: none;
+  display: inline-block;
+  padding: 13px 20px;
+  background: $primary;
+  border-radius: 0.3em;
+  color: #fff;
+  font-weight: 500;
+  &:hover {
+    background: #3a3131;
+  }
+}
